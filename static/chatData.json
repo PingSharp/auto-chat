@@ -70,13 +70,11 @@
 
           "leftMsg": [
 
-              "这门课程主要使讲解的Vue的内容。主要包括",
+              "This course is mainly to explain the content of Vue. Including",
 
-              "Vue的基础知识",
+              "Basic knowledge of Vue",
 
-              "Vue的的周边生态",
-
-              "还包含了我们的这个智能聊天系统的开发哦"
+              "the surrounding ecosystem of Vue"
 
           ],
 
@@ -86,7 +84,7 @@
 
                   "id": "004",
 
-                  "rightMsg": ["我已经用过Vue开发过两个项目了，对我来说这门课程是不是太基础了？😒"]
+                  "rightMsg": ["I have used Vue to develop two projects. Is this course too basic for me?😒"]
 
               },
 
@@ -94,7 +92,7 @@
 
                   "id": "016",
 
-                  "rightMsg": ["能具体点吗？都有啥东西。🤔"]
+                  "rightMsg": ["Can you give me more detail?🤔"]
 
               }
 
@@ -106,9 +104,9 @@
 
           "leftMsg": [
 
-              "如果你已经使用Vue开发过两个项目的话，或许这门课程对你的帮助更大",
+              "If you have already developed two projects with Vue, maybe this course will also help you a lot.",
 
-              "因为本课程会涉及到Vue的实现原理和webpack+vue-cli的构建结构"
+              "Because this course will cover the implementation principle of Vue and the construction structure of webpack+vue-cli."
 
           ],
 
@@ -118,7 +116,7 @@
 
                   "id": "007",
 
-                  "rightMsg": ["好的，谢谢你，LGD_Sunday,那有什么可以快速学习新知识的方法呢？"]
+                  "rightMsg": ["Ok，Thank you,Ping,so do you have any way to learn new knowledge quickly?"]
 
               }
 
@@ -130,7 +128,7 @@
 
           "leftMsg": [
 
-              "应该的"
+              "My pleasure!"
 
           ],
 
@@ -140,7 +138,7 @@
 
                   "id": "007",
 
-                  "rightMsg": ["有什么可以快速学习新知识的方法吗？"]
+                  "rightMsg": ["Do you have any way to learn new knowledge quickly?"]
 
               },
 
@@ -148,7 +146,7 @@
 
                   "id": "002",
 
-                  "rightMsg": ["你好，最近要开始找工作了，比较担心。"]
+                  "rightMsg": ["Hello，Recently I decided to start looking for job,and I am very worried."]
 
               },
 
@@ -156,7 +154,7 @@
 
                   "id": "006",
 
-                  "rightMsg": ["Sunday，你好，最近我工作不太顺心。感觉前端技术变化太快了"]
+                  "rightMsg": ["Ping，Hi，I have not worked very well recently. I feel that the front-end technology changes too fast."]
 
               },
 
@@ -164,7 +162,7 @@
 
                   "id": "011",
 
-                  "rightMsg": ["你是喜欢老干爹战队吗？0.0"]
+                  "rightMsg": ["Do you like Vue?0.0"]
 
               }
 
@@ -176,9 +174,9 @@
 
           "leftMsg": [
 
-              "前端技术的快速变化，正是整个前端生态欣欣向荣的一个表现",
+              "The rapid change of front-end technology is a manifestation of the prosperity of the entire front-end ecosystem.",
 
-              "我们应该时刻补充自己的知识，才能不被这个社会淘汰掉。"
+              "We should always supplement our knowledge so that we can not be eliminated by this society."
 
           ],
 
@@ -188,7 +186,7 @@
 
                   "id": "007",
 
-                  "rightMsg": ["那有什么可以快速学习新知识的方法呢？"]
+                  "rightMsg": ["Do you have any way to learn new knowledge quickly?"]
 
               }
 
@@ -200,17 +198,9 @@
 
           "leftMsg": [
 
-              "学习新知识的话，可以多去一些技术人员聚集多的地方",
+              "If you are learning new things, you can go to some places where technicians gather.",
 
-              "比如慕课网、csdn、博客园，都是很好的可以学习交流的地方",
-
-              "当然你也可以关注我在CSDN上的博客：LGD_Sunday",
-
-              "也可以查看我在慕课网上的课程：LGD_Sunday",
-
-              "也非常欢迎关注我的个人博客：https://blog.lgdsunday.club/",
-
-              "我会不定期的发一些技术文章，或者技术视频"
+              "For example, stackoverflow, github, and Udacity are all good places to learn and communicate."
 
           ],
 
@@ -220,7 +210,7 @@
 
                   "id": "009",
 
-                  "rightMsg": ["那我有什么问题可以直接问你吗？"]
+                  "rightMsg": ["Can I ask you directly if I have any questions?"]
 
               },
 
@@ -228,7 +218,7 @@
 
                   "id": "014",
 
-                  "rightMsg": ["你还有个人博客啊，我也想做一个个人博客，但是不知道怎么去做。"]
+                  "rightMsg": ["Do you have a personal blog or website, I also want to have a personal blog or website,but i dont know how to do it."]
 
               }
 
@@ -240,9 +230,9 @@
 
           "leftMsg": [
 
-              "如果你第一次找工作的话，心里没底也是正常的",
+              "If you are looking for your first job, your nervousness is normal.",
 
-              "或许你可以看一下我的GitChat课程，说不定会对你有帮助"
+              "Maybe you can take a look at some Vue online course, maybe it will help you."
 
           ],
 
@@ -252,13 +242,13 @@
 
                   "id": "003",
 
-                  "rightMsg": ["那这个主要讲的都是什么内容啊？"]
+                  "rightMsg": ["What is the main content of the course?"]
 
               },{
 
                   "id": "015",
 
-                  "rightMsg": ["GitChat课程？在哪看啊？主要讲的都是什么内容啊？"]
+                  "rightMsg": ["Vue course? Where can I find it?"]
 
               }
 
@@ -270,13 +260,11 @@
 
           "leftMsg": [
 
-              "当然可以",
+              "Of course",
 
-              "非常欢迎你在我的CSDN的博客或者慕课网上给我留言",
+              "Welcome to leave a message in my github online.",
 
-              "也可以在我的GitChat上给我留言",
-
-              "我看到了会立刻给你回复"
+              "I will reply to you as soon as I see it."
 
           ],
 
@@ -286,7 +274,7 @@
 
                   "id": "010",
 
-                  "rightMsg": ["那么可以在这里直接问你吗？"]
+                  "rightMsg": ["So can I ask you directly here?"]
 
               }
 
@@ -298,9 +286,9 @@
 
           "leftMsg": [
 
-              "可以是可以，不过...",
+              "Yes，but...",
 
-              "你好像没有办法打字...."
+              "Seems you cant type here...."
 
           ],
 
@@ -310,7 +298,7 @@
 
                   "id": "005",
 
-                  "rightMsg": ["好吧... 还是很感谢你的帮助"]
+                  "rightMsg": ["Ok... Thank for your help!"]
 
               }
 
@@ -322,9 +310,9 @@
 
           "leftMsg": [
 
-              "当然，我上学的时候可拿过全校的Dota冠军",
+              "Of course，I like Vue a lot",
 
-              "这是目前我唯一一次拿到的冠军了。。。"
+              "It is totally easy to learn and good for website performance."
 
           ],
 
@@ -334,7 +322,7 @@
 
                   "id": "012",
 
-                  "rightMsg": ["看你的名字就能看的出来，不过现在大家都喜欢玩LOL了，Dota周边的朋友玩的越来越少了"]
+                  "rightMsg": ["But now many people still use react or Angular, and people who use Vue don’t seem to have much."]
 
               },
 
@@ -342,7 +330,7 @@
 
                   "id": "013",
 
-                  "rightMsg": ["没想到你还能拿到冠军那，那你现在玩什么游戏？LOL还是吃鸡？"]
+                  "rightMsg": ["Are you using Vue to do your projects?"]
 
               }
 
@@ -354,11 +342,7 @@
 
           "leftMsg": [
 
-              "我取名叫LGD是因为我叫刘国栋。。。。",
-
-              "Dota逐渐失去统治地位，确实让人遗憾",
-
-              "不过，游戏作为内容的提供者，随着人们兴趣点的变化而快速迭代也是属于正常的事情"
+              "This is true, but I believe that Vue will become more and more popular."
 
           ],
 
@@ -368,7 +352,7 @@
 
                   "id": "013",
 
-                  "rightMsg": ["嗯，是的。那你现在玩什么游戏？LOL还是吃鸡？"]
+                  "rightMsg": ["Are you using Vue to do your projects?"]
 
               }
 
@@ -380,11 +364,7 @@
 
           "leftMsg": [
 
-              "我一直非常喜欢游戏",
-
-              "游戏的快速反馈机制，总不会让人感觉寂寞",
-
-              "LOL我一直在玩,不过现在玩的越来越少了..."
+              "Yes ,I have already completed two projects with Vue."
 
           ],
 
@@ -394,7 +374,7 @@
 
                   "id": "007",
 
-                  "rightMsg": ["对了。有什么可以快速学习新知识的方法吗？"]
+                  "rightMsg": ["Do you have any way to learn new knowledge quickly?"]
 
               }
 
@@ -406,11 +386,9 @@
 
           "leftMsg": [
 
-              "制作个人博客还是非常简单的",
+              "Making a personal blog is very simple,",
 
-              "你可以使用hexo或者wordpress",
-
-              "我的博客是使用hexo搭建的"
+              "You can use hexo or wordpress"
 
           ],
 
@@ -420,7 +398,7 @@
 
                   "id": "005",
 
-                  "rightMsg": ["好的。谢了。"]
+                  "rightMsg": ["Ok,Thank you!"]
 
               }
 
@@ -432,11 +410,10 @@
 
           "leftMsg": [
 
-              "GitChat是CSDN推出的一个付费阅读平台",
+              "You can use google to search for a good Vue course",
 
-              "你可以访问 https://gitbook.cn/?ref=csdn ",
+              "There are many different courses online"
 
-              "搜索LGD_Sunday"
 
           ],
 
@@ -446,7 +423,7 @@
 
                   "id": "005",
 
-                  "rightMsg": ["好的。谢了。"]
+                  "rightMsg": ["Ok,Thank you!"]
 
               },
 
@@ -454,7 +431,7 @@
 
                   "id": "003",
 
-                  "rightMsg": ["那你的课程主要是讲解的什么内容啊？"]
+                  "rightMsg": ["What is the main content of the course?"]
 
               }
 
@@ -468,11 +445,11 @@
 
               "🤔",
 
-              "课程包括了Vue的实现原理解析",
+              "The course includes the analysis of the implementation principle of Vue",
 
-              "webpack的使用方式解析",
+              "analysis of Webpack usage ",
 
-              "vue-cli构建的项目结构解析"
+              "and so on"
 
           ],
 
@@ -482,7 +459,7 @@
 
                   "id": "017",
 
-                  "rightMsg": ["👌，你看这样说多清楚"]
+                  "rightMsg": ["👌，I got it!"]
 
               },
 
@@ -490,7 +467,7 @@
 
                   "id": "005",
 
-                  "rightMsg": ["好的。谢了。"]
+                  "rightMsg": ["Ok,Thanks!"]
 
               }
 
@@ -502,7 +479,7 @@
 
           "leftMsg": [
 
-              "好吧...😂"
+              "Ok...😂"
 
           ],
 
@@ -512,7 +489,7 @@
 
                   "id": "007",
 
-                  "rightMsg": ["对了。有什么可以快速学习新知识的方法吗？"]
+                  "rightMsg": ["Do you have any way to learn new knowledge quickly?"]
 
               }
 

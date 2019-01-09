@@ -10,9 +10,9 @@
 
  <div class="content">
 
-      <div>
+      <div >
 
-        <ul class="message-content" ref="messageContent">
+        <ul class="message-content" ref="messageContent" >
 
           <li v-for="(item, index) in showMsgDatas" :key="index">
               {{item.msg}}
@@ -23,24 +23,39 @@
       </div>
 
     </div>
-
+<chat-feature :inputDisable="inputDisable" :rightDatas="rightDatas" @onRightSelectMsg="onRightSelectMsg"></chat-feature>
   </div>
 
 </template>
 
 <script>
+import ChatFeature from '../components/ChatFeature.vue';
+
   export default {
     data: function () {
       return {
         title: "hi",
+        inputDisable: true,
         chatDatas: [],
         showMsgDatas: [],
+        selectMsgData: {},
+        rightDatas: []
       }
     },
+    components: {
+   'chat-feature':ChatFeature
+ },
+
     created: function() {
       this.loadChatData();
     },
     methods: {
+      scrollContent: function() {
+        this.$nextTick(function(){
+          debugger;
+          this.$refs.messageContent.scrollTop=this.$refs.messageContent.scrollHeight;
+        })
+      },
       loadChatData: function(){
         var $this = this;
         console.log($this);
@@ -71,7 +86,7 @@
               msg: msgData[i],
               type: type
             });
-            // $this.scrollContent();
+             $this.scrollContent();
             i++;
             if(i>= msgData.length) {
               $this.title = 'chatting with Ping';
@@ -86,23 +101,38 @@
             msg: msgData[0],
             type: type
           });
+           $this.scrollContent();
         }
-      }
+      },
+      onRightSelectMsg:function(item){
+   this.setShowMsgDatas(item.rightMsg,'right');
+   this.setMsg(item.id);
+ },
     }
   }
 </script>
 <style>
+.content {
+  height: auto;
+}
+.navbar {
+
+  height: 50px;
+    background-color: bisque;
+    z-index: 100;
+
+}
   .navbar-text {
     font-size: 1.5em;
-    margin: 35%;
     font-family: sans-serif;
     color: darkblue;
     border: aqua;
     border-style: ridge;
     padding: 5px;
     border-width: medium;
-    position: relative;
-    top: 20px;
+    position: fixed;
+   left: 40%;
+
   }
   .message-content li{
     font-size: 1em;
@@ -110,5 +140,19 @@
     top: 50px;
     border: aqua;
     border-style: ridge;
-    font-family: cursive;}
+    font-family: cursive;
+    }
+    .message-content {
+      position: absolute;
+
+    top: 50px;
+
+    bottom: 45px;
+
+    width: 100%;
+    overflow-x: hidden;
+
+    overflow-y: auto;
+    height: 400px;
+    }
 </style>
