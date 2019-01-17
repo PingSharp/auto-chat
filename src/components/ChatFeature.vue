@@ -9,7 +9,7 @@
               <button>choose</button>
             </div>
     </div>
-    <div class="send-msg-pop animated fast" :class="[togglePop ? 'slideInUp' : 'slideOutDown']" >
+    <div class="send-msg-pop " :class="[togglePop ? 'slideInUp' : 'slideOutDown']" >
             <div class="chat-footer">
                 <div class="send-msg">
                     Choose your messages...

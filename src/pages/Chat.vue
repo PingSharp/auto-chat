@@ -15,7 +15,7 @@
         <ul class="message-content" ref="messageContent" >
 
           <li v-for="(item, index) in showMsgDatas" :key="index">
-              {{item.msg}}
+            <chat-item :chatItemObj="item"></chat-item>
           </li>
 
         </ul>
@@ -30,6 +30,7 @@
 
 <script>
 import ChatFeature from '../components/ChatFeature.vue';
+import chatItem from '../components/chatItem.vue';
 
   export default {
     data: function () {
@@ -43,7 +44,8 @@ import ChatFeature from '../components/ChatFeature.vue';
       }
     },
     components: {
-   'chat-feature':ChatFeature
+   'chat-feature':ChatFeature,
+   'chat-item': chatItem
  },
 
     created: function() {
