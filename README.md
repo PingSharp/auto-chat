@@ -1,6 +1,6 @@
 # auto-chat
 
-> A Vue.js project
+> A Vue.js auto-chat project
 
 ## Build Setup
 
