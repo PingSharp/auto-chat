@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# clone repo 
+git clone https://github.com/PingSharp/auto-chat.git
+
 # install dependencies
 npm install
 
